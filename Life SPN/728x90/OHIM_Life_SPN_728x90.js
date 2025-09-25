@@ -830,13 +830,13 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
-	this.instance_1.setTransform(89.2,80,1,1,0,0,0,78.7,50);
+	this.instance_1.setTransform(89.2,79,1,1,0,0,0,78.7,50);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(167).to({alpha:0},10).wait(2));
 
 	// HEAD2
 	this.instance_2 = new lib.HEAD2();
-	this.instance_2.setTransform(-15.55,80,1,1,0,0,0,78.7,50);
+	this.instance_2.setTransform(-15.55,79,1,1,0,0,0,78.7,50);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -844,7 +844,7 @@ if (reversed == null) { reversed = false; }
 
 	// SUBHEAD
 	this.instance_3 = new lib.SUBHEAD();
-	this.instance_3.setTransform(-89.05,84.55,1,1,0,0,0,78.7,26);
+	this.instance_3.setTransform(-89.05,82.55,1,1,0,0,0,78.7,26);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
