@@ -840,7 +840,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(19).to({_off:false},0).to({x:244.45,alpha:1},14,cjs.Ease.quintOut).wait(134).to({x:227.45},0).to({alpha:0},10).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(19).to({_off:false},0).to({x:244.45,alpha:1},14,cjs.Ease.quintOut).wait(134).to({alpha:0},10).wait(2));
 
 	// SUBHEAD
 	this.instance_3 = new lib.SUBHEAD();
