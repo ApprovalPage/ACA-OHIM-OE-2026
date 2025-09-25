@@ -826,20 +826,20 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
-	this.instance_1.setTransform(92.7,147,1,1,0,0,0,78.7,50);
+	this.instance_1.setTransform(92.7,160,1,1,0,0,0,78.7,50);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(167).to({alpha:0},10).wait(2));
 
 	// HEAD2
 	this.instance_2 = new lib.HEAD2();
-	this.instance_2.setTransform(-167.3,189,1,1,0,0,0,78.7,50);
+	this.instance_2.setTransform(-167.3,199,1,1,0,0,0,78.7,50);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(19).to({_off:false},0).to({x:92.7},14,cjs.Ease.quintOut).wait(134).to({alpha:0},10).wait(2));
 
 	// SUBHEAD
 	this.instance_3 = new lib.SUBHEAD();
-	this.instance_3.setTransform(-87.3,260,1,1,0,0,0,78.7,26);
+	this.instance_3.setTransform(-87.3,259,1,1,0,0,0,78.7,26);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(66).to({_off:false},0).to({x:92.7},14,cjs.Ease.quintOut).wait(87).to({alpha:0},10).wait(2));
